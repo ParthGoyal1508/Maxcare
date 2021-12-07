@@ -1,0 +1,291 @@
+/*
+    Theme Responsive Design
+*/
+
+@media (max-width: 1024px) {
+    .about_content {
+        padding: 55px 0 0;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+
+@media (max-width: 992px) {
+    .sm-padding {
+        padding: 15px;
+    }
+    ul.nav>li>a {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    .header_contact li a {
+        font-size: 10px;
+    }
+    .mid_header {
+        padding: 25px 0 40px;
+    }
+    .main_menu.container {
+        width: 100%;
+    }
+    .main_header .mobile-menu {
+        padding: 0 15px;
+    }
+    .slider-section {
+        margin: 0;
+    }
+    .slider-text h1 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .slider-text p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .hero_section {
+        height: 450px;
+    }
+    .hero_content h1 {
+        font-size: 28px;
+        line-height: 70px;
+    }
+    .page_header {
+        height: 350px;
+    }
+    .page_header .page_content,
+    .page_header {
+        margin-top: 0;
+    }
+    .content_box,
+    .about_section .about_content {
+        padding: 0;
+    }
+    .content_box h2,
+    .about_content h2 {
+        font-size: 24px;
+    }
+    .content_box h3,
+    .about_content h3 {
+        font-size: 14px;
+    }
+    .promo_top_margin {
+        margin: 0;
+        padding: 80px 0;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .cta_section_2 .cta_content h2,
+    .apointment_form h2 {
+        font-size: 18px;
+    }
+    .dr_list .owl-nav div {
+        left: -25px;
+    }
+    .dr_list .owl-nav div.owl-next {
+        right: -25px;
+    }
+    .cta_section_2:before,
+    .cta_section_2:after {
+        display: none;
+    }
+    .cta_section_2 .default_btn {
+        background-color: #fff;
+        color: #333;
+        font-size: 10px;
+    }
+    .cta_section_2 .default_btn:hover {
+        box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.15);
+    }
+    .company {
+        padding-top: 40px;
+    }
+}
+
+/* ---- End of max-width 992px CSS ---- */
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+    .online_report_btn {
+        position: absolute !important;
+        top: 50px !important;
+        left: 0 !important;
+        z-index: 99999;
+    }
+}
+
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+/* ---- Start of max-width 767px CSS ---- */
+
+@media all and (max-width: 1920px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p br {
+        display: none;
+    }
+    .promo_top_margin1,
+    .padding1 {
+        padding: 70px 0;
+    }
+    .promo_top_margin,
+    .padding {
+        padding: 140px 0;
+    }
+    .xs-padding {
+        padding: 15px;
+    }
+    .navbar-header {
+        padding: 5px 0px;
+    }
+    .cta_section_2 .default_btn,
+    .top_content_wrap {
+        margin: 0;
+    }
+    .mid_header {
+        padding: 0px 0 0px;
+    }
+    .navbar-header .brand {
+        display: block;
+        padding: 13px 25px;
+    }
+    .mobile-menu {
+        position: relative;
+    }
+    .slicknav_btn {
+        float: right;
+    }
+    .js #mainmenu {
+        display: none;
+    }
+    .js .slicknav_menu {
+        display: block;
+    }
+    .hero_section {
+        margin: 0;
+        height: 350px;
+    }
+    .hero_content h1 {
+        font-size: 18px;
+        line-height: 55px;
+    }
+    .page_header {
+        height: 300px;
+    }
+    .page_header .page_content h2 {
+        font-size: 24px;
+    }
+    .breadcrumb {
+        right: auto;
+        top: auto;
+        bottom: -50px;
+        left: -15px;
+        margin: 0;
+    }
+    .dr_list .owl-nav div {
+        left: 0;
+    }
+    .dr_list .owl-nav div.owl-next {
+        right: 0;
+    }
+    .cta_content h2 {
+        font-size: 40px;
+    }
+    .cta_content h3 {
+        font-size: 14px;
+    }
+    .contact_form .form-group .col-sm-6:first-child {
+        margin-bottom: 15px;
+    }
+    .coment-form .form-group .col-sm-4:last-child {
+        margin-top: 15px;
+    }
+    .promo_list .col-sm-3:nth-child(2) .promo_content,
+    .promo_list .col-sm-3:nth-child(3) .promo_content {
+        background-color: #22a2d6;
+    }
+    .promo_list .col-sm-3:nth-child(4) .promo_content {
+        background-color: #2caee2;
+    }
+    .promo_content {
+        border: none;
+    }
+    .footer_section {
+        padding: 0px 0;
+    }
+    .footer_section .container {
+        height: auto;
+    }
+    .footer_section .footer_box {
+        position: inherit;
+        top: inherit;
+        padding: 15px 0;
+    }
+    .nivo-controlNav {
+        display: block;
+    }
+}
+
+/* ---- End of max-width 767px CSS ---- */
+
+/* ---- Start of max-width 520px CSS ---- */
+
+@media all and (max-width: 520px) {
+    .header_contact li a {
+        font-size: 9px;
+    }
+    .counters .counter_content {
+        border: none;
+    }
+    .cta_solid .cta_content h2 {
+        font-size: 24px;
+    }
+    .slider-text h1 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .slider-text p {
+        font-size: 10px;
+        line-height: 14px;
+        margin-bottom: 0;
+    }
+    .slider-text .btn-group-left {
+        display: none;
+    }
+    .coment-form .form-group .col-sm-4 {
+        margin-bottom: 15px;
+        margin-top: auto;
+    }
+    .coment-form .form-group .col-sm-4:last-child {
+        margin: 0;
+    }
+    .footer_section .footer_social,
+    .footer_section .copyright {
+        text-align: center;
+    }
+    .footer_section .xs-padding {
+        padding: 5px 15px;
+    }
+}
+
+/* ---- End of max-width 520px CSS ---- */
+
+/* ---- End of max-width 520px CSS ---- */
+
+/* ---- Start of max-width 420px CSS ---- */
+
+@media (min-width: 360px) and (max-width: 550px) {
+    .modal-dialog {
+        margin: 138px auto;
+        width: 50%;
+    }
+}
+
+/* ---- End of max-width 420px CSS ---- */
